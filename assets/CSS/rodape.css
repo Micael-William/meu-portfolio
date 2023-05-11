@@ -1,0 +1,41 @@
+footer{  
+  background-color: #151515;
+  height: 35%;
+  width: 100%;
+}
+
+.content-social{
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+  padding: 4rem;
+}
+
+.links-contato{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+.icones-redes-sociais--github{
+  width: 39px;
+  height: 39px;
+}
+
+.icones-redes-sociais--linkedin{
+  width: 39px;
+  height: 39px;
+}
+
+.icones-redes-sociais--email{
+  width: 39px;
+  height: 39px;
+}
+.lista-links{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

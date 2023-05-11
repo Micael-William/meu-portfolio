@@ -1,0 +1,61 @@
+.secao-titulo-descricao{
+  color: #fff;
+  font-family: var(--font-texto-descricao);
+  font-size: 2rem;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-font-azul);
+}
+
+.secao-descricao-quem-sou{
+font-family: var(--font-texto-titulo);
+padding-top: 20px; 
+color: #fff;
+line-height: 27px;
+letter-spacing: 1px;
+margin-bottom: 33px;
+width: 600px;
+}
+
+.secao-descricao-sobre{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #191919;
+  padding: 7rem;
+  height: 65%;
+}
+
+.secao-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.secao-scrool{
+  display: none;
+}
+
+.foto{
+  width: 250px;
+  height: 250px;
+}
+
+.secao-texto-sobre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+  /* border: 1px solid transparent var(--color-font-azul);
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px 2px var(--color-font-azul); */
+  padding: 20px;  
+}
+
+.secao-texto-sobre:hover{
+  transition: 5s ease-in-out;
+  padding: 30px;
+  cursor: pointer;
+}
